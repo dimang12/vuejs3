@@ -1,0 +1,25 @@
+/*
+$white: #FFFFFF;
+$border: rgba(0, 0, 0, .07) solid 1px;
+$pink: #f196b5;
+$pink-light: #F196B5;
+*/
+
+@import 'scss/variable';
+@import 'scss/block_container';
+
+html, body {
+    height: 100%;
+}
+
+
+/* background */
+.bg-left-nav { background-color: #cdc8ce;}
+.bg-sub-left-nav { background-color: #e6e1e7;}
+.bg-nav-top { background-color: #f9f4fa;}
+
+/* font-size */ 
+.f-xx-large   { font-size: xx-large; }
+.f-x-large    { font-size: x-large; }
+.f-large      { font-size: large;}
+
