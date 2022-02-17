@@ -10,4 +10,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import "./assets/css/app.scss";
 
-createApp(App).use(store).use(router).mount('#app');
+createApp(App)
+    .use(store)
+    .use(router)
+    .mount('#app');
