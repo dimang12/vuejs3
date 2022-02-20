@@ -19,18 +19,19 @@
 </template>
 
 <script>
-    import TopNavigation from './components/layout/TopNavigation.vue';
-    import LeftNavigation from './components/layout/LeftNavigation.vue';
-    import AppFooter from './components/layout/AppFooter.vue'
-    export default {
-        components: {
-            TopNavigation, LeftNavigation, AppFooter
-        }
-    }
+import TopNavigation from "./components/layout/TopNavigation.vue";
+import LeftNavigation from "./components/layout/LeftNavigation.vue";
+import AppFooter from "./components/layout/AppFooter.vue";
+export default {
+  components: {
+    TopNavigation,
+    LeftNavigation,
+    AppFooter,
+  },
+};
 </script>
 
 <style>
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -38,11 +39,10 @@
   color: #2c3e50;
 }
 .left-nav {
-
 }
 
 .left-nav a {
-    display: block;
+  display: block;
 }
 #nav {
   padding: 30px;

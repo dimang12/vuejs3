@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue';
 import TaskDetail from '../components/Tasks/TaskDetail.vue';
 
+
 const routes = [
   {
     path: '/',
@@ -21,6 +22,11 @@ const routes = [
     name: 'TaskDetail',
     props: true,
     component: TaskDetail
+  },
+  {
+    path: '/sign-up',
+    name: 'SignUp',
+    component: () => import('../components/Setting/SignUp')
   }
 ]
 
