@@ -16,6 +16,7 @@
 // @ is an alias to /src
 import TaskList from '../components/Home/TaskList.vue';
 import ProjectList from '../components/Home/ProjectList.vue';
+import axios from 'axios'
 
 export default {
   name: "Home",
